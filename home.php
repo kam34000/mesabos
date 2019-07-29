@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/43a56a8ee7.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mes Abos - Économisez votre argent facilement</title>
+</head>
+<body>
+    <header class="home">
+        <div class="home-top">
+          <img src="img/" alt="Mes Abos"> 
+          <a href="login.php" class="btn btn-rounded">S'identifier</a>
+        </div>
+        <div class="home-content">
+            <h1>Plus d'excuse à payer trop cher</h1>
+            <p>Gérez vos abonnements, résiliez-lez ou trouvez moins cher!</p>
+            <a href="register.php" class="btn btn-xl">
+                Inscrivez-vous  <i class="fas fa-chevron-right btn-icon"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="tabs">
+        <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+                <i class="fas fa-book-reader fa-3x"></i>
+                <p class="hide-sm">Fonctionnement</p>
+            </div>
+            <div id="tab-2" class="tab-item">
+                    <i class="far fa-handshake fa-3x"></i>                    
+                    <p class="hide-sm">Engagements</p>
+            </div>
+            <div id="tab-3" class="tab-item">
+                    <i class="fas fa-question-circle fa-3x"></i>
+                    <p class="hide-sm">FAQ</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-content">
+        <div class="container">
+            <!-- Tab content 1 -->
+            <div id="tab-1-content" class="tab-content-item show">
+                <div class="tab-1-content-inner">
+                    <div>
+                        <h2>Repertoriez tous vos abonnements</h2>
+                        <p>Ajoutez tous vos abonnements sur votre tableau de bord. Ainsi vous pourrez connaitre vos dépenses mensuelles en un coup d'oeil</p>
+                    </div>
+                    <div>
+                        <h2>La fin des recherches pour résilier</h>
+                        <p>On vous fourni le tout (adresse, lettre type) afin de faciliter la résiliation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

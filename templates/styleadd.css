@@ -1,0 +1,12 @@
+
+.brand{
+    background: #2BBBAD !important;
+}
+.brand-text{
+    color: #2BBBAD !important;
+}
+form{
+max-width: 460px;
+margin: 20px auto;
+padding:  20px;
+}
